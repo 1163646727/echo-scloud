@@ -1,7 +1,7 @@
 # echo-scloud
 ## 介绍
-echo-scloud是一套微服务的解决方案，提供了服务发现、服务治理、配置管理、授权服务等。
-应用服务参看[enter description here](https://github.com/1163646727/echo-business)。
+echo-scloud是一套微服务的解决方案，提供了服务发现、服务治理、配置管理、授权服务等。  
+应用服务参看[enter description here](https://github.com/1163646727/echo-business)。  
 echo的含义：Echo是希腊神话中是山林女神，著名作家三毛的英文名也是Echo，也感谢现实中的女神谈倩倩女士。
 
 
