@@ -20,7 +20,6 @@ import org.springframework.security.oauth2.provider.token.DefaultTokenServices;
 import org.springframework.security.oauth2.provider.token.TokenEnhancerChain;
 import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
-
 import javax.sql.DataSource;
 import java.util.Arrays;
 
@@ -78,19 +77,6 @@ public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
 
         // 设置客户端详情服务，客户端信息已经自定义从数据库中获取 ChenQi
         clients.withClientDetails(clientDetailsService);
-
-        /* 暂时将客户端详情服务配置，放到内存 ChenQi*/
-      /*  clients.inMemory()// 使用in-memory 内存方式存储
-                .withClient("c1")// 客户端id
-                .secret(new BCryptPasswordEncoder ().encode("secret"))//客户端密钥
-                .resourceIds("res1")//客户端可以访问的资源列表
-                // 该client允许的授权类型：authorization_code,password,refresh_token,implicit,client_credentials，这5中类型也是OAuth2.0支持的类型
-                .authorizedGrantTypes("authorization_code", "password","client_credentials","implicit","refresh_token")
-                .scopes("all")// 允许的授权范围
-                .autoApprove(false)//false：如果授权类型是password，跳转到授权页面；如果是true的话，直接发令牌不用跳转到授权页面。
-                //加上验证回调地址
-                .redirectUris("http://www.baidu.com")*/
-        ;
     }
 
     /**
@@ -136,12 +122,6 @@ public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
         service.setTokenEnhancer(tokenEnhancerChain);
         return service;
     }
-
-    //设置授权码模式的授权码如何存取，暂时采用内存方式
-/*    @Bean
-    public AuthorizationCodeServices authorizationCodeServices() {
-        return new InMemoryAuthorizationCodeServices ();
-    }*/
 
     /**
      * methodName: authorizationCodeServices <BR>

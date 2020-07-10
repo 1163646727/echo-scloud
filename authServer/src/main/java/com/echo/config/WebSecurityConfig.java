@@ -45,8 +45,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
      */
     @Bean
     public PasswordEncoder passwordEncoder() {
-        /* NoOpPasswordEncoder表示明文，不进行编码设置；在生产环境中，不可能使用明文的 ChenQi*/
-        // return NoOpPasswordEncoder.getInstance();
         /* 使用BCrypt编码格式 ChenQi*/
         return new BCryptPasswordEncoder();
     }
@@ -57,10 +55,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         // 屏蔽CSRF控制，即spring security不再限制CSRF 1024
         http.csrf().disable()
                 .authorizeRequests()
-                //.antMatchers("/r/r1").hasAnyAuthority("p1")
                 .antMatchers("/login*").permitAll()
                 .anyRequest().authenticated()
-                .anyRequest().permitAll()//除了/r/**，其它的请求可以访问
+                .anyRequest().permitAll()
                 .and()
                 .formLogin()
         ;

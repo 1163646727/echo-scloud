@@ -3,12 +3,18 @@ package com.echo.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.net.URLEncoder;
 import java.util.Base64;
 
+/**
+ * className: EncryptUtil <BR>
+ * description: <BR>
+ * remark: <BR>
+ * author: ChenQi <BR>
+ * createDate: 2020-07-10 14:23 <BR>
+ */
 public class EncryptUtil {
     private static final Logger logger = LoggerFactory.getLogger(EncryptUtil.class);
 

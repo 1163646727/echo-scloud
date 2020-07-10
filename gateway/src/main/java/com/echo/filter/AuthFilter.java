@@ -10,16 +10,18 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.security.oauth2.provider.OAuth2Request;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 /**
- * @author Administrator
- * @version 1.0
- **/
+ * className: AuthFilter <BR>
+ * description: <BR>
+ * remark: <BR>
+ * author: ChenQi <BR>
+ * createDate: 2020-07-10 14:23 <BR>
+ */
 public class AuthFilter extends ZuulFilter {
 
     @Override

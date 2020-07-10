@@ -30,8 +30,6 @@ public class TokenConfig {
      */
     @Bean
     public TokenStore tokenStore() {
-        // 生成普通令牌，存储在内存中 ChenQi
-        // return new InMemoryTokenStore();
         // JWT令牌存储方案 ChenQi
         return new JwtTokenStore(accessTokenConverter());
     }

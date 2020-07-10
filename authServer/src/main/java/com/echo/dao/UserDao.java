@@ -6,14 +6,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
-
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Administrator
- * @version 1.0
- **/
+ * className: UserDao <BR>
+ * description: <BR>
+ * remark: <BR>
+ * author: ChenQi <BR>
+ * createDate: 2020-07-10 14:23 <BR>
+ */
 @Repository
 public class UserDao {
 

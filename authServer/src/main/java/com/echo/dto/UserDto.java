@@ -3,9 +3,12 @@ package com.echo.dto;
 import lombok.Data;
 
 /**
- * @author Administrator
- * @version 1.0
- **/
+ * className: UserDto <BR>
+ * description: <BR>
+ * remark: <BR>
+ * author: ChenQi <BR>
+ * createDate: 2020-07-10 14:24 <BR>
+ */
 @Data
 public class UserDto {
     private String id;

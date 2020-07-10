@@ -13,7 +13,6 @@
     <artifactId>gateway</artifactId>
 
     <dependencies>
-
         <!--alibaba nacos依赖 -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>

@@ -25,7 +25,6 @@
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
-
         <!--spring-cloud hystrix 熔断依赖-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
