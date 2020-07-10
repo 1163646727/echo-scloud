@@ -13,7 +13,7 @@ import java.util.Base64;
  * description: <BR>
  * remark: <BR>
  * author: ChenQi <BR>
- * createDate: 2020-07-10 14:23 <BR>
+ * createDate: 2020-07-10 15:03 <BR>
  */
 public class EncryptUtil {
     private static final Logger logger = LoggerFactory.getLogger(EncryptUtil.class);
