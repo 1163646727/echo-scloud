@@ -3,7 +3,7 @@
 echo-scloud是一套微服务的解决方案，集成了服务发现、服务治理、配置管理、授权服务等。  
 修改部分服务地址后，可用于开发使用。  
 应用服务参看：[https://github.com/1163646727/echo-business](https://github.com/1163646727/echo-business "echo-business")。  
-echo的含义：Echo是希腊神话中是山林女神，著名作家三毛的英文名也是Echo，同时感谢现实中的女神谈倩倩女士。
+echo的含义：Echo是希腊神话中是山林女神，著名作家三毛的英文名也是Echo。
 
 
 # 1. authService授权服务
