@@ -33,10 +33,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-oauth2</artifactId>
         </dependency>
-        <!--jwt依赖-->
+        <!--spring-security-jwt令牌  依赖-->
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-jwt</artifactId>
+            <version>1.0.10.RELEASE</version>
         </dependency>
 
         <!--jdbc连接依赖，因为需要读取数据库连接配置，所以项目需要才引用-->

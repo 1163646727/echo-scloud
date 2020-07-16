@@ -57,12 +57,7 @@
             <scope>provided</scope>
         </dependency>
 
-        <!--spring-security-jwt令牌  依赖-->
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-jwt</artifactId>
-            <version>1.0.10.RELEASE</version>
-        </dependency>
+
 
         <!--spring-security-oauth2  依赖-->
         <dependency>
@@ -113,6 +108,7 @@
             <groupId>org.springframework.retry</groupId>
             <artifactId>spring-retry</artifactId>
         </dependency>
+
 
     </dependencies>
 
