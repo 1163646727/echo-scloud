@@ -57,10 +57,6 @@
             <scope>provided</scope>
         </dependency>
 
-
-
-
-
         <!--spring-security-jwt令牌  依赖-->
         <dependency>
             <groupId>org.springframework.security</groupId>
@@ -80,6 +76,12 @@
 
 
     <dependencies>
+
+        <!--spring-boot-starter-web启动器，就会自动引入相关的这些依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
 
         <!--用于将Java Bean序列化为JSON字符串，也可以从JSON字符串反序列化到JavaBean-->
         <dependency>
