@@ -108,6 +108,13 @@
             <artifactId>javax.interceptor-api</artifactId>
             <version>1.2</version>
         </dependency>
+
+        <!--retry 重试机制-->
+        <dependency>
+            <groupId>org.springframework.retry</groupId>
+            <artifactId>spring-retry</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>
