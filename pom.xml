@@ -96,8 +96,7 @@
 
     </dependencies>
 
-
-    <build>
+    <!--<build>
         <finalName>${project.name}</finalName>
         <resources>
             <resource>
@@ -133,6 +132,6 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>
+    </build>-->
 
 </project>
