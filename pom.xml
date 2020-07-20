@@ -10,7 +10,7 @@
     <!--父工程设置pom类型-->
     <packaging>pom</packaging>
 
-    <!--spring boot依赖-->
+    <!--spring boot项目需要继承spring parent依赖-->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
