@@ -65,18 +65,13 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!--用于将Java Bean序列化为JSON字符串，也可以从JSON字符串反序列化到JavaBean-->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.47</version>
-        </dependency>
-
+        <!--lombok依赖-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.0</version>
         </dependency>
+
         <!--mysql 依赖-->
         <dependency>
             <groupId>mysql</groupId>
@@ -84,17 +79,24 @@
             <version>5.1.47</version>
         </dependency>
 
-        <!--spring interceptor拦截器  -->
+        <!--用于将Java Bean序列化为JSON字符串，也可以从JSON字符串反序列化到JavaBean-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.47</version>
+        </dependency>
+
+        <!--retry 重试机制  后期测试是否需要放到父依赖-->
+        <dependency>
+            <groupId>org.springframework.retry</groupId>
+            <artifactId>spring-retry</artifactId>
+        </dependency>
+
+        <!--spring interceptor拦截器 后期测试是否需要放到父依赖 -->
         <dependency>
             <groupId>javax.interceptor</groupId>
             <artifactId>javax.interceptor-api</artifactId>
             <version>1.2</version>
-        </dependency>
-
-        <!--retry 重试机制-->
-        <dependency>
-            <groupId>org.springframework.retry</groupId>
-            <artifactId>spring-retry</artifactId>
         </dependency>
 
 
