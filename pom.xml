@@ -59,7 +59,7 @@
 
 
     <dependencies>
-        <!--spring-boot-starter-web启动器，就会自动引入相关的这些依赖-->
+        <!--spring mvc依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
